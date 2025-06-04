@@ -121,8 +121,7 @@ uvicorn main:app --reload
 
 ### 6. Start the Reviewer Consumer (in a separate terminal)
 ```bash
-cd app
-python consumer.py
+python -m app.consumer
 ```
 
 ### 7. Run the Nightly Digest Manually
