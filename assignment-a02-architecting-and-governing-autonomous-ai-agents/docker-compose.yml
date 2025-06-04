@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  redis:
+    image: redis:7.2-alpine
+    container_name: notegpt_redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+
+  adminer:
+    image: adminer:latest
+    restart: always
+    ports:
+      - "8080:8080"
+
+volumes:
+  redis_data:

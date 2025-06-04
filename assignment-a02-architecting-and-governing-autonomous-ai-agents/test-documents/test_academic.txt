@@ -1,0 +1,8 @@
+Abstract: This paper explores the impact of artificial intelligence on modern education systems. We analyze recent trends, benefits, and potential drawbacks of AI-powered tools in classrooms.
+
+Introduction: The integration of artificial intelligence (AI) into education has accelerated over the past decade. From intelligent tutoring systems to automated grading, AI technologies are transforming traditional educational paradigms. This paper aims to examine both the practical applications and theoretical implications of AI in learning environments.
+
+References:
+[1] Luckin, R., Holmes, W., Griffiths, M., & Forcier, L. B. (2016). Intelligence Unleashed: An Argument for AI in Education. Pearson Education.
+[2] Baker, R. S., & Inventado, P. S. (2014). Educational data mining and learning analytics. In Learning Analytics (pp. 61–75). Springer.
+[3] Woolf, B. P. (2010). Building Intelligent Interactive Tutors. Morgan Kaufmann.

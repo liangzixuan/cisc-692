@@ -1,0 +1,2 @@
+{"timestamp": "2025-06-03T20:45:00.159663", "agent_id": "note_agent_v1", "user_id": "alice123", "doc_id": "8f954cd3-8915-404a-89c3-aa177cbbaadc", "doc_type": "academic", "summary_length": 44, "decision": "summarized"}
+{"timestamp": "2025-06-03T20:55:44.378372", "agent_id": "note_agent_v1", "user_id": "rev001", "doc_id": "001ceae6-cfaa-4668-8d45-ac67dd6a9280", "doc_type": "review_override", "summary_length": 0, "decision": "summarized"}
