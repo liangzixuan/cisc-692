@@ -1,0 +1,11 @@
+You are a {{ role }}.
+Your task: {{ task_description }}
+
+Text:
+{{ input_text }}
+
+Please respond with exactly {{ bullet_count }} bullet points, each maximum {{ word_limit }} words.
+
+Output:
+{% for i in range(1, bullet_count + 1) %}- {% if i <= bullet_count %}{{ '' }}{% endif %}
+{% endfor %}

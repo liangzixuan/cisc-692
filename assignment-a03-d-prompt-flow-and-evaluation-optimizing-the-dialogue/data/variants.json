@@ -1,0 +1,23 @@
+[
+  {
+    "id": "v1",
+    "role": "journalist",
+    "task_description": "Extract three bullet points summarizing the above text.",
+    "bullet_count": 3,
+    "word_limit": 20
+  },
+  {
+    "id": "v2",
+    "role": "editor",
+    "task_description": "List the three most important takeaways from the above text.",
+    "bullet_count": 3,
+    "word_limit": 20
+  },
+  {
+    "id": "v3",
+    "role": "subject-matter expert",
+    "task_description": "Provide three concise insights based on the above text.",
+    "bullet_count": 3,
+    "word_limit": 20
+  }
+]
