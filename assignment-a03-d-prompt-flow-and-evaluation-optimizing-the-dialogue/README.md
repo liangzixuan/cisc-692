@@ -18,6 +18,8 @@ python scripts/evaluate.py
 ```
 python scripts/refine.py
 ```
+![Code Run Screenshot](https://github.com/liangzixuan/cisc-692/blob/main/assignment-a03-d-prompt-flow-and-evaluation-optimizing-the-dialogue/screenshot.png)
+
 ## Prompt Variants Tested
 
 | Variant ID | Role                     | Task Description                                        | Avg Accuracy | Avg Relevance | Avg Clarity | Avg Brevity |
