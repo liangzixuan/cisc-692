@@ -1,4 +1,4 @@
-variant_id,input_id,prompt,response,latency_ms,Accuracy,Relevance,Clarity,Brevity
+variant_id,input_id,prompt,response,latency_ms,Accuracy,Relevance,Clarity,Brevity,Structure
 v1,input1,"You are a journalist.
 Your task: Extract three bullet points summarizing the above text.
 
@@ -13,7 +13,7 @@ Output:
 - 
 ","- The stock market experienced unprecedented volatility today. 
 - Tech stocks significantly plunged. 
-- This turbulence in the market specifically affected tech shares.",2813.7,5,5,5,5
+- This turbulence in the market specifically affected tech shares.",2813.7,5,5,5,5,5
 v1,input2,"You are a journalist.
 Your task: Extract three bullet points summarizing the above text.
 
@@ -28,7 +28,7 @@ Output:
 - 
 ","- Scientists have discovered a new exoplanet.
 - The newly discovered exoplanet could potentially be habitable.
-- Further research and observations are needed to confirm its habitability.",2298.8,5,5,5,5
+- Further research and observations are needed to confirm its habitability.",2298.8,5,5,5,5,5
 v1,input3,"You are a journalist.
 Your task: Extract three bullet points summarizing the above text.
 
@@ -43,7 +43,7 @@ Output:
 - 
 ","- Researchers have developed a new AI algorithm.
 - The algorithm is designed to enhance translation accuracy.
-- The unveiling of this novel AI technology marks a significant advancement in language translation.",1877.4,5,5,5,5
+- The unveiling of this novel AI technology marks a significant advancement in language translation.",1877.4,5,5,5,5,5
 v1,input4,"You are a journalist.
 Your task: Extract three bullet points summarizing the above text.
 
@@ -58,7 +58,7 @@ Output:
 - 
 ","- Local community garden project enhances urban biodiversity.
 - The project also strengthens social connections in the community.
-- No additional information was provided in the text.",2522.4,5,5,5,5
+- No additional information was provided in the text.",2522.4,4,4,5,5,5
 v1,input5,"You are a journalist.
 Your task: Extract three bullet points summarizing the above text.
 
@@ -73,7 +73,7 @@ Output:
 - 
 ","- A recent study associates moderate coffee intake with enhanced cognitive function.
 - 
--",1217.5,5,1,5,5
+-",1217.5,5,2,5,5,2
 v2,input1,"You are a editor.
 Your task: List the three most important takeaways from the above text.
 
@@ -88,7 +88,7 @@ Output:
 - 
 ","- The stock market experienced unprecedented volatility today.
 - Tech stocks significantly decreased in value.
-- This shift in the market is an unusual occurrence.",1643.7,5,5,5,5
+- This shift in the market is an unusual occurrence.",1643.7,3,4,5,5,5
 v2,input2,"You are a editor.
 Your task: List the three most important takeaways from the above text.
 
@@ -103,7 +103,7 @@ Output:
 - 
 ","- Scientists have discovered a new exoplanet.
 - The newly discovered exoplanet could potentially support life.
-- Further details about the exoplanet were not provided in the text.",1792.4,5,5,5,5
+- Further details about the exoplanet were not provided in the text.",1792.4,4,5,5,5,5
 v2,input3,"You are a editor.
 Your task: List the three most important takeaways from the above text.
 
@@ -118,7 +118,7 @@ Output:
 - 
 ","- Researchers have developed a new AI algorithm.
 - This algorithm enhances translation accuracy.
-- The text doesn't provide specific details about the algorithm's working or its potential applications.",1536.3,5,4,5,5
+- The text doesn't provide specific details about the algorithm's working or its potential applications.",1536.3,5,5,5,5,5
 v2,input4,"You are a editor.
 Your task: List the three most important takeaways from the above text.
 
@@ -133,7 +133,7 @@ Output:
 - 
 ","- Community garden project increases urban biodiversity.
 - The project also strengthens social connections.
-- The impact of the project is local.",2042.6,5,5,5,5
+- The impact of the project is local.",2042.6,4,5,5,5,5
 v2,input5,"You are a editor.
 Your task: List the three most important takeaways from the above text.
 
@@ -148,7 +148,7 @@ Output:
 - 
 ","- Recent study connects coffee consumption with cognitive function
 - Moderate coffee intake could potentially improve cognition
-- The benefits are specifically linked to moderate, not excessive, consumption",2514.9,5,5,5,5
+- The benefits are specifically linked to moderate, not excessive, consumption",2514.9,5,5,5,5,5
 v3,input1,"You are a subject-matter expert.
 Your task: Provide three concise insights based on the above text.
 
@@ -163,7 +163,7 @@ Output:
 - 
 ","- Today's stock market experienced exceptional fluctuations.
 - Tech stocks significantly dropped in value.
-- This indicates instability within the technology sector of the market.",1541.9,5,5,5,5
+- This indicates instability within the technology sector of the market.",1541.9,3,4,5,5,5
 v3,input2,"You are a subject-matter expert.
 Your task: Provide three concise insights based on the above text.
 
@@ -178,7 +178,7 @@ Output:
 - 
 ","- The text indicates the discovery of a new exoplanet.
 - This exoplanet has potential to be habitable, suggesting it may have conditions suitable for life.
-- More research is likely needed to confirm the habitability of this newly discovered exoplanet.",2473.2,5,5,5,5
+- More research is likely needed to confirm the habitability of this newly discovered exoplanet.",2473.2,5,5,5,5,5
 v3,input3,"You are a subject-matter expert.
 Your task: Provide three concise insights based on the above text.
 
@@ -193,7 +193,7 @@ Output:
 - 
 ","- The text discusses a new AI algorithm focused on enhancing translation accuracy.
 - Researchers are behind the development of this algorithm.
-- The algorithm represents a breakthrough in language translation technology.",2014.6,5,5,5,5
+- The algorithm represents a breakthrough in language translation technology.",2014.6,4,5,5,5,5
 v3,input4,"You are a subject-matter expert.
 Your task: Provide three concise insights based on the above text.
 
@@ -208,7 +208,7 @@ Output:
 - 
 ","- The community garden project positively impacts urban biodiversity.
 - The project fosters stronger social connections within the community.
-- Local initiatives can have significant environmental and social benefits.",1903.6,5,5,5,5
+- Local initiatives can have significant environmental and social benefits.",1903.6,5,5,5,5,5
 v3,input5,"You are a subject-matter expert.
 Your task: Provide three concise insights based on the above text.
 
@@ -223,4 +223,4 @@ Output:
 - 
 ","- Moderate coffee consumption may enhance cognitive abilities.
 - Coffee could potentially be used as a cognitive enhancer.
-- The study suggests a positive correlation between coffee intake and brain function.",1928.5,5,5,5,5
+- The study suggests a positive correlation between coffee intake and brain function.",1928.5,5,5,5,5,5
