@@ -26,7 +26,7 @@ executes the full workflow end-to-end, plus logs and sample outputs.
 
 ## 2 . System Architecture
 
-(TBD)
+![System Architecture](https://github.com/liangzixuan/cisc-692/blob/main/assignment-a05d-action-enabled-agents-designing-ai-systems-that-deliver/architecture.png)
 - LLM Orchestration: OpenAI with function-calling. Decides which tool to call and when.
 - Tools/Actions: Plain Python functions (sync & async). Business logic: DB, email, logging
 - Data Storage: SQLit (aiosqlite). Lightweight CRM table.
