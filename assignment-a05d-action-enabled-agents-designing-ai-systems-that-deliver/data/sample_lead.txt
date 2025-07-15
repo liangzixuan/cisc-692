@@ -1,0 +1,14 @@
+From: leads@website.com
+To: sales@yourstartup.ai
+Subject: Request for product demo – Acme Corp
+
+Hi team,
+
+I’m interested in learning more about your AI-powered analytics platform for our e-commerce division at Acme Corp.
+We have around 10 GB of customer data and want to improve churn prediction.
+Could we schedule a brief demo next week?
+
+Regards,
+Jane Chen
+Senior Data Manager, Acme Corp
+jane.chen@acme.io
