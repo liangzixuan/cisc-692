@@ -65,7 +65,7 @@ logs/action_log.csv # ISO-timestamped action trace
 ```
 
 ## 5. Demo Video
-(TBD)
+[Demo Video YouTube Link](https://youtu.be/CGXZ213_PcU)
 
 ## 6. Reflection
 Design Choices

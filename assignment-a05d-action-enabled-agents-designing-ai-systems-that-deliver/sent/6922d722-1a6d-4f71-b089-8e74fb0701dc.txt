@@ -1,0 +1,5 @@
+{
+  "to": "jane.chen@acme.io",
+  "subject": "Let\u2019s schedule your Acme Corp product demo \ud83d\ude80",
+  "body": "Hi Jane,\n\nThanks for your interest! We\u2019d love to show you a 15-minute live demo tailored to your goals. What time works best next week?\n\nBest,\nSales AI Assistant"
+}
